@@ -4,6 +4,7 @@
     "Name": "UsrDummyProcess",
     "ModifiedOnUtc": "\/Date(1689689882000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Dummy example process"
+    "Caption": "Dummy example process",
+    "DependsOn": []
   }
 }
