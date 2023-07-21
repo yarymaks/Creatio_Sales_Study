@@ -127,7 +127,15 @@
   "E17": "UsrContactTypeEmployeeId",
   "E18": "UsrContactTypeEmployeeName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","22d97f89-649b-4724-a9ec-8e6b6837fa86","c901bb7a-7f16-e5ac-2ef9-db25b8780196","acbcf0c7-4b64-9f0d-0fed-2c9218e28f8e","cd9edad4-862e-3a84-f10a-c13241a157e3","9d74cab3-06a4-1671-71eb-cfd571f21837","c9f6dfa0-5323-5b04-819e-344f81949d69","c52a82e1-b3aa-febc-3e55-445e029aa65d","8ad489d3-89f1-ef4e-0dcb-9b49264f937e","78562c10-84c3-5c76-3b83-af53558fa0ef"]
++ MetaData.Schema.D2 {
+  "UId": "600afc06-a671-6205-88e9-d5209ce02824",
+  "A2": "UsrCommissionUSD",
+  "A3": "22b38bed-5a6b-4b44-8253-94e69448f45e",
+  "A4": "22b38bed-5a6b-4b44-8253-94e69448f45e",
+  "A5": "3d57876f-af6e-466f-975f-9a50f9b2e11b",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","22d97f89-649b-4724-a9ec-8e6b6837fa86","c901bb7a-7f16-e5ac-2ef9-db25b8780196","acbcf0c7-4b64-9f0d-0fed-2c9218e28f8e","cd9edad4-862e-3a84-f10a-c13241a157e3","9d74cab3-06a4-1671-71eb-cfd571f21837","c9f6dfa0-5323-5b04-819e-344f81949d69","c52a82e1-b3aa-febc-3e55-445e029aa65d","8ad489d3-89f1-ef4e-0dcb-9b49264f937e","78562c10-84c3-5c76-3b83-af53558fa0ef","600afc06-a671-6205-88e9-d5209ce02824"]
 = MetaData.Schema.D20.A2 "UsrRealtyEvents"
 = MetaData.Schema.D36.A3 "22b38bed-5a6b-4b44-8253-94e69448f45e"
 = MetaData.Schema.D36.BS1 false

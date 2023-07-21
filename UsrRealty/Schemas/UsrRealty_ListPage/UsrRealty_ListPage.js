@@ -22,32 +22,77 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"operation": "merge",
 				"name": "DataTable",
 				"values": {
+					"columns": [
+						{
+							"id": "d5acd8ab-1068-7538-3450-52fed463b8ba",
+							"code": "PDS_UsrName",
+							"path": "UsrName",
+							"caption": "#ResourceString(PDS_UsrName)#",
+							"dataValueType": 28,
+							"width": 165.00001525878906
+						},
+						{
+							"id": "5ddf9e7f-37f8-af33-d507-6ab620969c4f",
+							"code": "PDS_UsrType",
+							"path": "UsrType",
+							"caption": "#ResourceString(PDS_UsrType)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "UsrRealtyType",
+							"width": 119.00001525878906
+						},
+						{
+							"id": "51345265-b582-1f83-190a-74d9595ce913",
+							"code": "PDS_UsrOfferType",
+							"path": "UsrOfferType",
+							"caption": "#ResourceString(PDS_UsrOfferType)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "UsrRealtyOfferType",
+							"width": 147.00001525878906
+						},
+						{
+							"id": "2257d017-1272-e3b1-af11-e0e88036c6d6",
+							"code": "PDS_UsrPriceUSD",
+							"path": "UsrPriceUSD",
+							"caption": "#ResourceString(PDS_UsrPriceUSD)#",
+							"dataValueType": 32,
+							"width": 135.00000762939453
+						},
+						{
+							"id": "eeba163e-09ce-25bf-eba7-d42baba947f7",
+							"code": "PDS_UsrManager",
+							"path": "UsrManager",
+							"caption": "#ResourceString(PDS_UsrManager)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "Contact",
+							"width": 156.00001525878906
+						},
+						{
+							"id": "e39db7f1-1988-fb3b-cfe4-b04dab72aecf",
+							"code": "PDS_UsrComment",
+							"path": "UsrComment",
+							"caption": "#ResourceString(PDS_UsrComment)#",
+							"dataValueType": 28,
+							"width": 177.00001525878906
+						},
+						{
+							"id": "18e98d59-7bad-aba6-a0df-5c310d9601b8",
+							"code": "PDS_CreatedOn",
+							"path": "CreatedOn",
+							"caption": "#ResourceString(PDS_CreatedOn)#",
+							"dataValueType": 7
+						}
+					],
 					"layoutConfig": {
 						"basis": "100%",
 						"width": 300
 					},
-					"columns": [
-						{
-							"id": "f252f581-0ccf-44ac-b7c9-c00df2ad9919",
-							"code": "PDS_UsrName",
-							"caption": "#ResourceString(PDS_UsrName)#",
-							"dataValueType": 1
-						},
-						{
-							"id": "c8689d78-80ba-4e71-8cf2-fa478e3be5bc",
-							"code": "PDS_CreatedOn",
-							"caption": "#ResourceString(PDS_CreatedOn)#",
-							"dataValueType": 7
-						},
-						{
-							"id": "fd4b3485-a46e-4219-b775-adef1210fe51",
-							"code": "PDS_CreatedBy",
-							"caption": "#ResourceString(PDS_CreatedBy)#",
-							"dataValueType": 10
-						},
-					],
 					"primaryColumnName": "PDS_Id",
-					"sorting": "$ItemsSorting | crt.ToDataTableSortingConfig: 'Items'"
+					"sorting": "$ItemsSorting | crt.ToDataTableSortingConfig: 'Items'",
+					"selectedRows": "$DataTable_SelectedRows",
+					"_filterOptions": {
+						"expose": [],
+						"from": "DataTable_SelectedRows"
+					}
 				}
 			},
 			{
@@ -103,7 +148,7 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					},
 					"justifyContent": "start",
 					"gap": "medium",
-                    "alignItems": "center"
+					"alignItems": "center"
 				},
 				"parentName": "MainFilterContainer",
 				"propertyName": "items",
@@ -201,7 +246,9 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"layoutConfig": {
 						"width": 328.125
 					},
-					"classes": ["section-folder-tree"]
+					"classes": [
+						"section-folder-tree"
+					]
 				},
 				"parentName": "SectionContentWrapper",
 				"propertyName": "items",
@@ -210,9 +257,51 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfig: /**SCHEMA_VIEW_MODEL_CONFIG*/{
 			"attributes": {
-				"ItemsSorting": {},
 				"Items": {
-					"isCollection": true,
+					"viewModelConfig": {
+						"attributes": {
+							"PDS_UsrName": {
+								"modelConfig": {
+									"path": "PDS.UsrName"
+								}
+							},
+							"PDS_UsrType": {
+								"modelConfig": {
+									"path": "PDS.UsrType"
+								}
+							},
+							"PDS_UsrOfferType": {
+								"modelConfig": {
+									"path": "PDS.UsrOfferType"
+								}
+							},
+							"PDS_UsrPriceUSD": {
+								"modelConfig": {
+									"path": "PDS.UsrPriceUSD"
+								}
+							},
+							"PDS_UsrManager": {
+								"modelConfig": {
+									"path": "PDS.UsrManager"
+								}
+							},
+							"PDS_UsrComment": {
+								"modelConfig": {
+									"path": "PDS.UsrComment"
+								}
+							},
+							"PDS_CreatedOn": {
+								"modelConfig": {
+									"path": "PDS.CreatedOn"
+								}
+							},
+							"PDS_Id": {
+								"modelConfig": {
+									"path": "PDS.Id"
+								}
+							}
+						}
+					},
 					"modelConfig": {
 						"path": "PDS",
 						"pagingConfig": {
@@ -231,32 +320,9 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 								"loadOnChange": true
 							}
 						]
-					},
-					"viewModelConfig": {
-						"attributes": {
-							"PDS_Id": {
-								"modelConfig": {
-									"path": 'PDS.Id',
-								}
-							},
-							"PDS_UsrName": {
-								"modelConfig": {
-									"path": "PDS.UsrName"
-								}
-							},
-							"PDS_CreatedOn": {
-								"modelConfig": {
-									"path": "PDS.CreatedOn"
-								}
-							},
-							"PDS_CreatedBy": {
-								"modelConfig": {
-									"path": "PDS.CreatedBy"
-								}
-							}
-						}
 					}
 				},
+				"ItemsSorting": {},
 				"FolderTree_visible": {
 					"value": false
 				},
@@ -345,7 +411,30 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"type": "crt.EntityDataSource",
 					"hiddenInPageDesigner": true,
 					"config": {
-						"entitySchemaName": "UsrRealty"
+						"entitySchemaName": "UsrRealty",
+						"attributes": {
+							"UsrName": {
+								"path": "UsrName"
+							},
+							"UsrType": {
+								"path": "UsrType"
+							},
+							"UsrOfferType": {
+								"path": "UsrOfferType"
+							},
+							"UsrPriceUSD": {
+								"path": "UsrPriceUSD"
+							},
+							"UsrManager": {
+								"path": "UsrManager"
+							},
+							"UsrComment": {
+								"path": "UsrComment"
+							},
+							"CreatedOn": {
+								"path": "CreatedOn"
+							}
+						}
 					},
 					"scope": "viewElement"
 				}
