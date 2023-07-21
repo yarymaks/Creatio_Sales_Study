@@ -2,7 +2,7 @@
 <Resources Culture="fa-IR">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Realty visit (Freedom UI)" />
+			<Item Name="Caption" Value="RealtyClassic" />
 		</Items>
 	</Group>
 </Resources>
