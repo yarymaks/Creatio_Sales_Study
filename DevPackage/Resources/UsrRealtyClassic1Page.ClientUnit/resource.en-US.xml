@@ -3,6 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;Realty (ClassicUI)&quot;" />
+			<Item Name="LocalizableStrings.MyButtonCaption.Value" Value="PUSH!" />
+			<Item Name="LocalizableStrings.ValueMustBeGteaterThanZero.Value" Value="Value must be gteater  than zero" />
 		</Items>
 	</Group>
 </Resources>
