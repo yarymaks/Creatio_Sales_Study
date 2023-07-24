@@ -910,7 +910,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"colSpan": 2,
 						"column": 1,
 						"row": 1,
-						"rowSpan": 9
+						"rowSpan": 13
 					},
 					"selectedRows": "$GridDetail_vh131x9_SelectedRows",
 					"_filterOptions": {
@@ -1178,8 +1178,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					return function (control) {
 						let value = control.value;
 						let minValue = config.minValue;
-						let valueIsCorrect = value >= minValue;
-						return !valueIsCorrect ?
+						return !(value >= minValue) ?
 							 {
 								"usr.DGValidator": { 
 									message: config.message

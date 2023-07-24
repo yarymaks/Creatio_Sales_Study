@@ -2,7 +2,7 @@
 <Resources Culture="uk-UA">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Edit page: &quot;RealtyClassic&quot;" />
+			<Item Name="Caption" Value="Edit page: &quot;Realty (ClassicUI)&quot;" />
 		</Items>
 	</Group>
 </Resources>

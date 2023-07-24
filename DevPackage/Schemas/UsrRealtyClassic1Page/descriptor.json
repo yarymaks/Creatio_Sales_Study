@@ -1,13 +1,13 @@
 ﻿{
   "Descriptor": {
-    "UId": "87441f35-0dd5-413c-b9b8-3e6323dd8f3d",
+    "UId": "7116fd3a-37ad-48fc-af6d-92137e5a44dc",
     "Name": "UsrRealtyClassic1Page",
-    "ModifiedOnUtc": "\/Date(1689954336000)\/",
+    "ModifiedOnUtc": "\/Date(1690202460000)\/",
     "Parent": {
       "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
       "Name": "BaseModulePageV2"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Edit page: \"RealtyClassic\""
+    "Caption": "Edit page: \"Realty (ClassicUI)\""
   }
 }

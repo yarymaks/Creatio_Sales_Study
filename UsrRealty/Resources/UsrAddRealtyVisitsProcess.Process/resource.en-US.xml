@@ -15,7 +15,7 @@
 			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Created record Id" />
 			<Item Name="BaseElements.ConditionalSequenceFlow3.Caption" Value="Realty Id is empty" />
 			<Item Name="BaseElements.DefaultSequenceFlow1.Caption" Value="Realty Id is not empty" />
-			<Item Name="BaseElements.FormulaTask1.Caption" Value="N= N - 1" />
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="N = N - 1" />
 			<Item Name="BaseElements.TerminateEvent1.Caption" Value="Finish" />
 			<Item Name="BaseElements.TerminateEvent2.Caption" Value="Error" />
 			<Item Name="Caption" Value="Add realty visits process" />

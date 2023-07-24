@@ -2,7 +2,7 @@
 <Resources Culture="nl-NL">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="RealtyClassic" />
+			<Item Name="Caption" Value="Realty (ClassicUI)" />
 			<Item Name="Columns.UsrName.Caption" Value="Naam" />
 			<Item Name="Columns.UsrNotes.Caption" Value="Aantekeningen" />
 		</Items>

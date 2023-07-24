@@ -2,7 +2,7 @@
 <Resources Culture="fr-FR">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="RealtyClassic" />
+			<Item Name="Caption" Value="Realty (ClassicUI)" />
 			<Item Name="Columns.UsrName.Caption" Value="Nom" />
 			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
 		</Items>

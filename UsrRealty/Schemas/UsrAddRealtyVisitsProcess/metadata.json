@@ -107,7 +107,7 @@
           "GT4": "db6abed1-0c5f-455b-8053-2665378cdb71",
           "GT1": {
             "GS1": 1,
-            "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"1b4b0f01-14ff-4eac-a75b-0982920291c5\",\"columnMetaPath\":{\"value\":\"e6c4a06d-be53-4b1b-4b9c-4d511964e04f\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"isLczValue\":true,\"value\":\"Auto added visit\"},\"displayValue\":{\"isLczValue\":true,\"value\":\"Auto added visit\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":1,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"3dcf7007-b885-4fe6-b659-eb1dd50a6ed8\",\"columnMetaPath\":{\"value\":\"de7a1471-b975-3b19-a5ea-d19db7430c1e\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{d82a5d89-6307-4085-8d91-ecccf03f047a}]#]\"},\"displayValue\":{\"value\":\"[#Realty Id#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"22b38bed-5a6b-4b44-8253-94e69448f45e\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"a60eaf80-f576-4a4d-9303-b76905375d89\",\"columnMetaPath\":{\"value\":\"2418884a-f1b6-e854-60b8-4f25a007dc56\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"value\":\"[#SysVariable.CurrentDateTime#].AddDays([#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{b3c7348b-aab2-446a-a313-642d9221c932}]#])\"},\"displayValue\":{\"value\":\"[#System variable.Current Time and Date#].AddDays([#Counter#])\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"d21e9ef4-c064-4012-b286-fa1a8171da44\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+            "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"1b4b0f01-14ff-4eac-a75b-0982920291c5\",\"columnMetaPath\":{\"value\":\"e6c4a06d-be53-4b1b-4b9c-4d511964e04f\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"isLczValue\":true,\"value\":\"Auto added visit\"},\"displayValue\":{\"isLczValue\":true,\"value\":\"Auto added visit\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":1,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"3dcf7007-b885-4fe6-b659-eb1dd50a6ed8\",\"columnMetaPath\":{\"value\":\"de7a1471-b975-3b19-a5ea-d19db7430c1e\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{d82a5d89-6307-4085-8d91-ecccf03f047a}]#]\"},\"displayValue\":{\"value\":\"[#Realty Id#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"22b38bed-5a6b-4b44-8253-94e69448f45e\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"a60eaf80-f576-4a4d-9303-b76905375d89\",\"columnMetaPath\":{\"value\":\"2418884a-f1b6-e854-60b8-4f25a007dc56\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"value\":\"[#SysVariable.CurrentDateTime#].AddDays([#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{b3c7348b-aab2-446a-a313-642d9221c932}]#]) \"},\"displayValue\":{\"value\":\"[#System variable.Current Time and Date#].AddDays([#Counter#]) \"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"d21e9ef4-c064-4012-b286-fa1a8171da44\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
             "GS5": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d"
           }
         },
@@ -165,6 +165,7 @@
           "A5": "5b1fc4ca-ba67-4f68-a967-cc251cd34f20",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -199,7 +200,8 @@
           "BL8": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
           "BN2": "31;31",
           "BO3": true,
-          "FC1": []
+          "FC1": [],
+          "ED1": false
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaTerminateEvent",
@@ -243,7 +245,8 @@
                 "GS1": 1,
                 "GS2": "5aa8037f-bcc2-425a-bbfe-c6f160a74b6b",
                 "GS5": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d"
-              }
+              },
+              "L9": "2e155463-3ff1-4ccf-8584-4ec8d7233111"
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
@@ -290,7 +293,7 @@
               "L1": "b53eaa2a-4bb7-4a6b-9f4f-58ccab293e31",
               "L8": {
                 "GS1": 1,
-                "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"1b4b0f01-14ff-4eac-a75b-0982920291c5\",\"columnMetaPath\":{\"value\":\"e6c4a06d-be53-4b1b-4b9c-4d511964e04f\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"isLczValue\":true},\"displayValue\":{\"isLczValue\":true},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":1,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"3dcf7007-b885-4fe6-b659-eb1dd50a6ed8\",\"columnMetaPath\":{\"value\":\"de7a1471-b975-3b19-a5ea-d19db7430c1e\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{d82a5d89-6307-4085-8d91-ecccf03f047a}]#]\"},\"displayValue\":{\"value\":\"[#Realty Id#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"22b38bed-5a6b-4b44-8253-94e69448f45e\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"a60eaf80-f576-4a4d-9303-b76905375d89\",\"columnMetaPath\":{\"value\":\"2418884a-f1b6-e854-60b8-4f25a007dc56\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"value\":\"[#SysVariable.CurrentDateTime#].AddDays([#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{b3c7348b-aab2-446a-a313-642d9221c932}]#])\"},\"displayValue\":{\"value\":\"[#System variable.Current Time and Date#].AddDays([#Counter#])\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"d21e9ef4-c064-4012-b286-fa1a8171da44\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+                "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"1b4b0f01-14ff-4eac-a75b-0982920291c5\",\"columnMetaPath\":{\"value\":\"e6c4a06d-be53-4b1b-4b9c-4d511964e04f\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"isLczValue\":true},\"displayValue\":{\"isLczValue\":true},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":1,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"3dcf7007-b885-4fe6-b659-eb1dd50a6ed8\",\"columnMetaPath\":{\"value\":\"de7a1471-b975-3b19-a5ea-d19db7430c1e\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{d82a5d89-6307-4085-8d91-ecccf03f047a}]#]\"},\"displayValue\":{\"value\":\"[#Realty Id#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"b295071f-7ea9-4e62-8d1a-919bf3732ff2\\\",\\\"ReferenceSchemaUId\\\":\\\"22b38bed-5a6b-4b44-8253-94e69448f45e\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"a60eaf80-f576-4a4d-9303-b76905375d89\",\"columnMetaPath\":{\"value\":\"2418884a-f1b6-e854-60b8-4f25a007dc56\"},\"schemaUId\":{\"value\":\"5aa8037f-bcc2-425a-bbfe-c6f160a74b6b\"},\"value\":{\"value\":\"[#SysVariable.CurrentDateTime#].AddDays([#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{b3c7348b-aab2-446a-a313-642d9221c932}]#]) \"},\"displayValue\":{\"value\":\"[#System variable.Current Time and Date#].AddDays([#Counter#]) \"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"d21e9ef4-c064-4012-b286-fa1a8171da44\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
                 "GS5": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d"
               }
             },
@@ -338,7 +341,7 @@
           "BO3": true,
           "BP2": [],
           "CL2": "FFFFFFFF",
-          "CH1": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{b3c7348b-aab2-446a-a313-642d9221c932}]#]-1",
+          "CH1": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{b3c7348b-aab2-446a-a313-642d9221c932}]#] - 1",
           "HS1": "b3c7348b-aab2-446a-a313-642d9221c932"
         },
         {
@@ -406,23 +409,6 @@
           "CI12": "249;200"
         },
         {
-          "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
-          "UId": "4e754705-cc2f-42e8-8115-fd693206e4fb",
-          "A2": "SequenceFlow5",
-          "A3": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
-          "A4": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
-          "A5": "5b1fc4ca-ba67-4f68-a967-cc251cd34f20",
-          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
-          "BL8": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
-          "CI1": "16d148e6-0a64-48fa-a222-a930976d0e8f",
-          "CI2": "9322fe6e-807b-4f9e-a661-b536116dee61",
-          "CI3": "null",
-          "CI5": "FF939598",
-          "CI6": 1,
-          "CI11": "318;200",
-          "CI12": "410;200"
-        },
-        {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaConditionalFlow",
           "UId": "d12cb7d5-07a0-43fd-ba4a-bd615323c284",
           "A2": "ConditionalSequenceFlow3",
@@ -433,7 +419,7 @@
           "BL8": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
           "CI1": "0388e333-cbaf-4889-aba3-2a650cb83d80",
           "CI2": "8c205a60-12e3-42d9-8ef5-5179b79c0615",
-          "CI3": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{d82a5d89-6307-4085-8d91-ecccf03f047a}]#]==Guid.Empty",
+          "CI3": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{d82a5d89-6307-4085-8d91-ecccf03f047a}]#] == Guid.Empty",
           "CI4": 2,
           "CI5": "FF939598",
           "CI6": 1,
@@ -460,8 +446,8 @@
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaConditionalFlow",
-          "UId": "06bc739d-d02a-425b-b819-0a68878d3926",
-          "A2": "ConditionalSequenceFlow4",
+          "UId": "4c4dc40e-bb2e-423f-a168-26a4d5d3570f",
+          "A2": "ConditionalSequenceFlow1",
           "A3": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
           "A4": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
           "A5": "5b1fc4ca-ba67-4f68-a967-cc251cd34f20",
@@ -469,18 +455,34 @@
           "BL8": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
           "CI1": "16d148e6-0a64-48fa-a222-a930976d0e8f",
           "CI2": "f880befb-84b0-4dc4-9268-ada179075f60",
-          "CI3": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{b3c7348b-aab2-446a-a313-642d9221c932}]#]!=0",
+          "CI3": "[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{b3c7348b-aab2-446a-a313-642d9221c932}]#] > 0",
           "CI4": 2,
           "CI5": "FF939598",
           "CI6": 1,
           "CI7": "0;1",
           "CI8": "0;1",
           "CI10": {
-            "Item0": "284;85",
-            "Item1": "159;85"
+            "Item0": "284;48",
+            "Item1": "159;48"
           },
           "GV2": "{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[System.Collections.ObjectModel.Collection`1[[System.Guid, mscorlib]], mscorlib]], mscorlib\"}",
           "GV3": []
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "4e754705-cc2f-42e8-8115-fd693206e4fb",
+          "A2": "DefaultSequenceFlow2",
+          "A3": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
+          "A4": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
+          "A5": "5b1fc4ca-ba67-4f68-a967-cc251cd34f20",
+          "BL7": "573ed909-e069-4161-b193-ae8dd9437c68",
+          "BL8": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
+          "CI1": "16d148e6-0a64-48fa-a222-a930976d0e8f",
+          "CI2": "9322fe6e-807b-4f9e-a661-b536116dee61",
+          "CI3": "null",
+          "CI4": 1,
+          "CI5": "FF939598",
+          "CI6": 1
         }
       ],
       "BK9": [],
@@ -507,6 +509,15 @@
           "A4": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
           "ParentUId": "d12cb7d5-07a0-43fd-ba4a-bd615323c284",
           "X": -21
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaLabel",
+          "UId": "8707fe2f-d351-4770-a7c2-7d8aed6d81c0",
+          "A2": "FormulaTask1_label1",
+          "A3": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
+          "A4": "ab152215-bf19-4bdd-ba30-dfae7e1cb11d",
+          "ParentUId": "16d148e6-0a64-48fa-a222-a930976d0e8f",
+          "X": 10
         }
       ],
       "BK24": []
