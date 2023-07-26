@@ -25,6 +25,14 @@ define("UsrRealtyClassic1Page", [], function() {
 					"masterColumn": "Id",
 					"detailColumn": "UsrRealtyClassic"
 				}
+			},
+			"UsrSchemae890706aDetail17ffd5a8": {
+				"schemaName": "UsrRealtyVisitClassicDetailGrid",
+				"entitySchemaName": "UsrRealtyVisitClassic",
+				"filter": {
+					"detailColumn": "UsrParentRealtyClassic",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
@@ -133,6 +141,24 @@ define("UsrRealtyClassic1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "FLOAT3c805848-a516-4ca1-9d05-458f5d0e5bef",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 3,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrCommissionUSD",
+					"enabled": false
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
 				"name": "MyButton",
 				"values": {
 					"itemType": 5,
@@ -153,24 +179,6 @@ define("UsrRealtyClassic1Page", [], function() {
 						"row": 4,
 						"layoutName": "ProfileContainer"
 					}
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "FLOAT3c805848-a516-4ca1-9d05-458f5d0e5bef",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 3,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrCommissionUSD",
-					"enabled": false
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -198,7 +206,7 @@ define("UsrRealtyClassic1Page", [], function() {
 			{
 				"operation": "insert",
 				"name": "LOOKUP120e9168-a243-49b8-8a2b-97363118d7c0",
-				"values": {					
+				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
@@ -254,10 +262,10 @@ define("UsrRealtyClassic1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "NotesAndFilesTab",
+				"name": "Tab5a68c7c8TabLabel",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
+						"bindTo": "Resources.Strings.Tab5a68c7c8TabLabelTabCaption"
 					},
 					"items": [],
 					"order": 0
@@ -265,6 +273,31 @@ define("UsrRealtyClassic1Page", [], function() {
 				"parentName": "Tabs",
 				"propertyName": "tabs",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSchemae890706aDetail17ffd5a8",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tab5a68c7c8TabLabel",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "NotesAndFilesTab",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
+					},
+					"items": [],
+					"order": 1
+				},
+				"parentName": "Tabs",
+				"propertyName": "tabs",
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -322,7 +355,7 @@ define("UsrRealtyClassic1Page", [], function() {
 				"operation": "merge",
 				"name": "ESNTab",
 				"values": {
-					"order": 1
+					"order": 2
 				}
 			}
 		]/**SCHEMA_DIFF*/

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "aa2538eb-fa21-4245-a5dc-404fe3d3991d",
+    "Name": "DocumentSectionV2",
+    "ModifiedOnUtc": "\/Date(1690373885000)\/",
+    "Parent": {
+      "UId": "4ddb288e-abd7-48c3-b74b-002b805aa25e",
+      "Name": "DocumentSectionV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"Documents\""
+  }
+}

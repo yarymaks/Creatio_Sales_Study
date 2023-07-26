@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pt-PT">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Seguir o feed" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Você parou de seguir o feed: {0}" />
+		</Items>
+	</Group>
+</Resources>

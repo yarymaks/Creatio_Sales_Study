@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "63fe9ca2-16b0-4a00-bd1a-af8ff2aeaebf",
+    "Name": "Document",
+    "ModifiedOnUtc": "\/Date(1690373895000)\/",
+    "Parent": {
+      "UId": "8b33b6b2-19f7-4222-9161-b4054b3fbb09",
+      "Name": "Document"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Document",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "8e7aa03c-2185-4c1b-ab5e-02422440378a",
+    "Name": "DocumentPageV2",
+    "ModifiedOnUtc": "\/Date(1690375555000)\/",
+    "Parent": {
+      "UId": "12ba33bc-d12c-4ec6-b552-7b739b7b5193",
+      "Name": "DocumentPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section edit page schema - \"Documents\""
+  }
+}

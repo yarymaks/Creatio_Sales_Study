@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "fbbd70d9-e228-410f-8529-ab143c602c04",
+    "Name": "UsrSchemab1c108b3Detail",
+    "ModifiedOnUtc": "\/Date(1690370010000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty visit classic"
+  }
+}
