@@ -2,7 +2,6 @@
 <Resources Culture="pt-BR">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Average price output page" />
 			<Item Name="Caption" Value="Calculate average realty price process (Freedom UI)" />
 		</Items>
 	</Group>
