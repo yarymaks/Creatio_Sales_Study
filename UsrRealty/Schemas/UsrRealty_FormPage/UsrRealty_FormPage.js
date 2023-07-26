@@ -80,6 +80,21 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"size": "medium",
 					"iconPosition": "only-text",
 					"visible": true,
+					"clicked": {},
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_szib7jk",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_szib7jk_caption)#",
+					"visible": true,
 					"clicked": {
 						"request": "crt.RunBusinessProcessRequest",
 						"params": {
@@ -87,12 +102,31 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"processRunType": "ForTheSelectedPage",
 							"recordIdProcessParameterName": "RealtyIdParameter"
 						}
-					},
-					"clickMode": "default"
+					}
 				},
-				"parentName": "CardToggleContainer",
-				"propertyName": "items",
+				"parentName": "Button_5oys9gc",
+				"propertyName": "menuItems",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_ksym1j5",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_ksym1j5_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalcAvgRealtyPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"recordIdProcessParameterName": "RealtyIdParameter"
+						}
+					}
+				},
+				"parentName": "Button_5oys9gc",
+				"propertyName": "menuItems",
+				"index": 1
 			},
 			{
 				"operation": "insert",
