@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "7ae47ec7-f689-4388-a5f5-0ab713cfeb86",
+    "Name": "UsrService",
+    "ModifiedOnUtc": "\/Date(1690556904000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "https://link.idbanking.am",
+    "DependsOn": []
+  }
+}
